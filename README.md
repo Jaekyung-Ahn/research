@@ -1,37 +1,45 @@
-## Welcome to GitHub Pages
+<div id='one' style='visibility: hidden; text-align: center; height: 100%; max-width: 100%; border: none; overflow: hidden;'><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdS0Gpw_9nkEc9yWdAIcoUwUNLXLgsUX6GwvwUeMwoPWnxRhQ/viewform?embedded=true" width="640" height="6345" frameborder="0" marginheight="0" marginwidth="0"></iframe></div>
 
-You can use the [editor on GitHub](https://github.com/Jaekyung-Ahn/research/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+<div id='two' style='visibility: hidden; text-align: center; height: 100%; max-width: 100%; border: none; overflow: hidden;'><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeomz5EeqWG1KVQnHwlsthJLIx1WgDV56DrY_73h4iAnffPuQ/viewform?embedded=true" width="640" height="6345" frameborder="0" marginheight="0" marginwidth="0"></iframe></div> 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<div id='three' style='visibility: hidden; text-align: center; height: 100%; max-width: 100%; border: none; overflow: hidden;'><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfyytOlTOcWWivEw4TsSjwYywesjR3Qse-ye5WukRbfLm1zzw/viewform?embedded=true" width="640" height="6345" frameborder="0" marginheight="0" marginwidth="0"></iframe></div> 
 
-### Markdown
+<div id='four' style='visibility: hidden; text-align: center; height: 100%; max-width: 100%; border: none; overflow: hidden;'><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe0KnBNT2ZWqbqb3bRFr4ELWxt8FQ18sy6Kjksdh-lIAUDdaw/viewform?embedded=true" width="640" height="6345" frameborder="0" marginheight="0" marginwidth="0">로드 중…</iframe></div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+ 
+<script type="text/javascript">
+var xxx = Math.floor(Math.random() * 4) + 1;
+one = document.getElementById('one');
+two = document.getElementById('two');
+three = document.getElementById('three');
+four = document.getElementById('four');
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+if (xxx === 2) {	
+	two.style.visibility = "visible";	
+	one.style.height = 0;	
+	three.style.height = 0;	
+	four.style.height = 0
+}
 
-- Bulleted
-- List
+else if (xxx === 3){	
+	three.style.visibility = "visible";	
+	one.style.height = 0;	
+	two.style.height = 0;	
+	four.style.height = 0;
+}
 
-1. Numbered
-2. List
+else if (xxx === 4){
+	four.style.visibility = "visible";	
+	one.style.height = 0;	
+	two.style.height = 0;	
+	three.style.height = 0;
+}
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Jaekyung-Ahn/research/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+else {	
+	one.style.visibility = "visible";	
+	two.style.height = 0;	
+	three.style.height = 0;		
+	four.style.height = 0;
+}
+</script>
